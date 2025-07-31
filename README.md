@@ -1,6 +1,6 @@
 <!-- Animated Header -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Atchutha+Nagaraju+Samanasa+%F0%9F%91%8B;Software+Developer+%7C+Problem+Solver+%7C+Tech+Enthusiast;From+Mechanical+Engineering+to+Code+%F0%9F%9A%80;Building+the+future%2C+one+line+at+a+time+%E2%9C%A8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey+there!+I'm+Atchutha+Nagaraju+Samanasa+%F0%9F%91%8B;Full+Stack+Java+Developer+%7C+Spring+Boot+Expert;Angular+%26+REST+API+Specialist+%F0%9F%9A%80;Building+scalable+applications%2C+one+commit+at+a+time+%E2%9C%A8" alt="Typing SVG" />
 </div>
 
 <!-- Animated Banner -->
@@ -22,27 +22,35 @@
 ```javascript
 const atchutha = {
     name: "Atchutha Nagaraju Samanasa",
-    role: "Software Developer",
-    background: "Mechanical Engineer → Code Enthusiast",
-    location: "India 🇮🇳",
+    role: "Full Stack Java Developer",
+    background: "Mechanical Engineer → Java Developer",
+    location: "Hyderabad, India 🇮🇳",
+    
+    expertise: [
+        "Spring Boot & REST APIs",
+        "Angular 17 Frontend Development", 
+        "JWT Authentication & Security",
+        "MySQL & Database Design",
+        "Full Stack Applications"
+    ],
     
     currentFocus: [
-        "Full Stack Development",
-        "Spring Boot Applications",
-        "Database Design & Optimization",
+        "Scalable Backend Systems",
+        "Microservices Architecture",
+        "Cloud Technologies",
         "Open Source Contributions"
     ],
     
-    funFact: "I debug code like I solve mechanical problems - systematically! 🔧➡️💻"
+    funFact: "From designing mechanical systems to crafting digital solutions! 🔧➡️💻"
 };
 ```
 
-- 🔭 Currently working on **Spring Boot CRUD Applications**
-- 🌱 Learning **React.js** and **Microservices Architecture**
-- 👯 Looking to collaborate on **Java-based projects**
-- 💬 Ask me about **Java, Spring, SQL, or Mechanical Design**
+- 🔭 Currently working on **Full Stack Applications with Spring Boot & Angular**
+- 🌱 Learning **Docker, Microservices & Cloud Technologies**
+- 👯 Looking to collaborate on **Java Backend & Full Stack projects**
+- 💬 Ask me about **Spring Boot, Angular, REST APIs, JWT Security**
 - 📫 Reach me at: **achuth568@gmail.com**
-- ⚡ Fun fact: **I love solving complex problems, whether in code or mechanics!**
+- ⚡ Fun fact: **I love building secure, scalable applications that solve real problems!**
 
 ---
 
@@ -51,38 +59,44 @@ const atchutha = {
 <div align="center">
 
 ### 💻 Programming Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java](https://img.shields.io/badge/Java%2017-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-### 🌐 Web Technologies
+### 🌐 Frontend Technologies
+![Angular](https://img.shields.io/badge/Angular%2017-DD0031?style=for-the-badge&logo=angular&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-### 🚀 Frameworks & Libraries
-![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white)
+### 🚀 Backend Frameworks & Libraries
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring-security&logoColor=white)
+![Spring MVC](https://img.shields.io/badge/Spring_MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=rest&logoColor=white)
 
 ### 🗄️ Databases
-![Oracle](https://img.shields.io/badge/Oracle-F00000?style=for-the-badge&logo=oracle&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F00000?style=for-the-badge&logo=oracle&logoColor=white)
+![H2](https://img.shields.io/badge/H2-1021FF?style=for-the-badge&logo=h2&logoColor=white)
 
-### 🛠️ Development Tools
+### 🛠️ Development Tools & Technologies
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+### 💻 IDEs & Editors
 ![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Spring Tool Suite](https://img.shields.io/badge/STS-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 
-### 🔧 Version Control & Collaboration
+### 🔧 Version Control
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-
-### 📐 Design & CAD
-![AutoCAD](https://img.shields.io/badge/AutoCAD-FF8C00?style=for-the-badge&logo=autodesk&logoColor=white)
-![SolidWorks](https://img.shields.io/badge/SolidWorks-FF0000?style=for-the-badge&logo=solidworks&logoColor=white)
 
 </div>
 
@@ -105,49 +119,83 @@ const atchutha = {
 
 <div align="center">
 
-### 🤖 Robotic Arm with Smartphone Control
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Achuth568&repo=robotic-arm-control&theme=tokyonight&hide_border=true)](https://github.com/Achuth568/robotic-arm-control)
+### 📚 Book Social Network (Full Stack Application)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Achuth568&repo=book-social-network&theme=tokyonight&hide_border=true)](https://github.com/Achuth568/book-social-network)
 
-**Tech Stack:** Arduino, Bluetooth HC05, Servo Motors, Android App  
-**Features:** Real-time smartphone control, precise movement, wireless communication
+**🚀 Tech Stack:** Java 17, Spring Boot, Spring Security, Angular 17, JPA, MySQL  
+**✨ Key Features:**
+- 🔐 JWT Authentication & Role-based Access Control
+- 📖 Book borrowing, returning, and sharing system
+- 🎨 Responsive Angular frontend with standalone components
+- 📁 File upload functionality with Spring Security
+- 🔒 Secure REST APIs for all operations
+
+**📅 Duration:** Jan 2025 – May 2025
+
+---
+
+### 📝 Backend Blog Application
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Achuth568&repo=backend-blog-app&theme=tokyonight&hide_border=true)](https://github.com/Achuth568/backend-blog-app)
+
+**🚀 Tech Stack:** Java 17, Spring Boot, Spring Security, Hibernate (JPA), Swagger, H2  
+**✨ Key Features:**
+- 🔐 Complete authentication system
+- 📚 RESTful API architecture
+- 📖 Comprehensive API documentation with Swagger
+- 💾 H2 in-memory database for rapid development
+- 🧪 Optimized for testing and development
+
+**📅 Duration:** Oct 2024 – Dec 2024
 
 ---
 
 ### 💼 Personal Portfolio Website  
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Achuth568&repo=portfolio-website&theme=tokyonight&hide_border=true)](https://github.com/Achuth568/portfolio-website)
 
-**Tech Stack:** HTML5, CSS3, JavaScript, Responsive Design  
-**Features:** Interactive UI, Project showcase, Contact form, Mobile-friendly
+**🚀 Tech Stack:** HTML5, CSS3, JavaScript  
+**✨ Key Features:**
+- 📱 Responsive design for all devices
+- 🎨 Modern UI/UX with smooth animations
+- 📋 Interactive project showcase
+- 📞 Contact form integration
+
+**📅 Duration:** Jan 2023 – Feb 2023
 
 ---
 
-### 🎮 Tic Tac Toe Game (Java)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Achuth568&repo=tic-tac-toe-java&theme=tokyonight&hide_border=true)](https://github.com/Achuth568/tic-tac-toe-java)
+### 🤖 Robotic Arm with Smartphone Control
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Achuth568&repo=robotic-arm-control&theme=tokyonight&hide_border=true)](https://github.com/Achuth568/robotic-arm-control)
 
-**Tech Stack:** Java, Swing GUI, Object-Oriented Programming  
-**Features:** Interactive GUI, Game logic, Score tracking
+**🚀 Tech Stack:** Arduino, Servo Motors, HC-05 Bluetooth Module  
+**✨ Key Features:**
+- 📱 Custom smartphone app for control
+- 🎯 Precision manipulation capabilities
+- 📡 Wireless Bluetooth communication
+- ⚙️ Multiple servo motor coordination
 
----
-
-### 🗃️ CRUD Application with Spring Boot
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Achuth568&repo=spring-boot-crud&theme=tokyonight&hide_border=true)](https://github.com/Achuth568/spring-boot-crud)
-
-**Tech Stack:** Spring Boot, Hibernate, JPA, Oracle Database  
-**Features:** RESTful APIs, Data persistence, Error handling, Validation
+**📅 Duration:** Nov 2020 – July 2021
 
 </div>
 
 ---
 
-## 🎓 Certifications & Achievements
+## 🎓 Education & Certifications
 
 <div align="center">
 
+### 🏫 Education
+| Degree | Institution | Score | Year |
+|--------|------------|--------|------|
+| **B.Tech Mechanical Engineering** | BVC Engineering College, Odalarevu | **CGPA: 7.33** | 2017-2021 |
+| **Intermediate (MPC)** | Aditya Junior College, Amalapuram | **92.30%** | 2015-2017 |
+| **SSC** | Sarada Convent E.M School, Amalapuram | **CGPA: 9.2** | 2014-2015 |
+
+### 🏆 Certifications & Professional Development
+
 | Certification | Platform | Badge |
 |---------------|----------|-------|
-| **Basic Python** | HackerRank | ![Python](https://img.shields.io/badge/Python-Certified-3776AB?style=for-the-badge&logo=python&logoColor=white) |
-| **SQL** | HackerRank | ![SQL](https://img.shields.io/badge/SQL-Certified-336791?style=for-the-badge&logo=postgresql&logoColor=white) |
-| **AutoCAD** | APSSDC | ![AutoCAD](https://img.shields.io/badge/AutoCAD-Certified-FF8C00?style=for-the-badge&logo=autodesk&logoColor=white) |
+| **SQL Proficiency** | HackerRank | ![SQL](https://img.shields.io/badge/SQL-Certified-336791?style=for-the-badge&logo=hackerrank&logoColor=white) |
+| **Spring Core Fundamentals** | Udemy | ![Spring](https://img.shields.io/badge/Spring-Certified-6DB33F?style=for-the-badge&logo=spring&logoColor=white) |
 
 </div>
 
@@ -170,6 +218,8 @@ const atchutha = {
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Achuth568)
 [![Phone](https://img.shields.io/badge/Phone-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:9502212128)
 
+**📍 Location:** Hyderabad, India
+
 </div>
 
 ---
@@ -182,14 +232,37 @@ const atchutha = {
 
 ---
 
-## 🎯 Current Goals for 2024
+## 🎯 Current Goals for 2025
 
-- [ ] Master **React.js** and build full-stack applications
-- [ ] Contribute to **5+ open source projects**
-- [ ] Learn **Docker** and **Kubernetes**
-- [ ] Build a **microservices architecture** project
+- [x] Master **Spring Boot & Spring Security**
+- [x] Build **Full Stack Applications** with Angular
+- [ ] Learn **Docker & Kubernetes** for containerization
+- [ ] Explore **Microservices Architecture**
 - [ ] Get **AWS Cloud Practitioner** certification
-- [ ] Create **10+ Spring Boot projects**
+- [ ] Contribute to **Open Source Projects**
+- [ ] Build **Scalable Enterprise Applications**
+
+---
+
+## 💡 Core Strengths
+
+<div align="center">
+
+```java
+public class DeveloperProfile {
+    private String[] strengths = {
+        "Strong foundation in OOP and Data Structures",
+        "Fast learner with passion for backend systems", 
+        "Effective communicator and team player",
+        "Experience with secure authentication systems",
+        "Full stack development capabilities"
+    };
+    
+    private String motto = "Building scalable solutions, one commit at a time!";
+}
+```
+
+</div>
 
 ---
 
@@ -198,7 +271,7 @@ const atchutha = {
 </div>
 
 <div align="center">
-  <h3>🌟 "Code is like humor. When you have to explain it, it's bad." - Cory House 🌟</h3>
+  <h3>🌟 "The best way to predict the future is to create it." - Peter Drucker 🌟</h3>
   <p><strong>Thanks for visiting my profile! Let's build something amazing together! 🚀</strong></p>
 </div>
 
