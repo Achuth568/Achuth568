@@ -152,3 +152,262 @@ I'm always interested in collaborating on exciting projects and learning new tec
   <img src="https://komarev.com/ghpvc/?username=Achuth568&color=brightgreen" alt="Profile Views">
 </p>
 
+# Graph Data Structures and Algorithms in Java
+
+A comprehensive implementation of graph data structures and algorithms in Java, covering all essential concepts for competitive programming and technical interviews.
+
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Graph Representations](#graph-representations)
+- [Algorithms Implemented](#algorithms-implemented)
+- [Usage Examples](#usage-examples)
+- [Common Graph Problems](#common-graph-problems)
+- [Time and Space Complexity](#time-and-space-complexity)
+- [How to Run](#how-to-run)
+- [Problem-Solving Approach](#problem-solving-approach)
+
+## 🎯 Overview
+
+This repository provides a complete toolkit for solving graph-related problems in Java. It includes:
+
+- **Multiple graph representations** (adjacency list, weighted graphs)
+- **Traversal algorithms** (BFS, DFS)
+- **Shortest path algorithms** (Dijkstra, Floyd-Warshall, Bellman-Ford)
+- **Advanced algorithms** (MST, Topological Sort, Strongly Connected Components)
+- **Common problem solutions** (Cycle detection, Bipartite check, Graph coloring)
+
+## ✨ Features
+
+### Graph Representations
+- **Unweighted Graph**: Adjacency list implementation supporting both directed and undirected graphs
+- **Weighted Graph**: Support for weighted edges with various shortest path algorithms
+- **Dynamic operations**: Add/remove edges, check connectivity, print graph structure
+
+### Core Algorithms
+- **Traversal**: BFS, DFS (both iterative and recursive)
+- **Shortest Path**: Dijkstra's algorithm, Floyd-Warshall, Bellman-Ford
+- **Minimum Spanning Tree**: Kruskal's algorithm with Union-Find
+- **Topological Sorting**: For directed acyclic graphs (DAGs)
+- **Cycle Detection**: For both directed and undirected graphs
+
+### Advanced Features
+- **Connected Components**: Find all connected components
+- **Strongly Connected Components**: Kosaraju's algorithm
+- **Bridges and Articulation Points**: Critical edges and vertices
+- **Bipartite Graph Detection**: Two-coloring algorithm
+- **Graph Coloring**: Greedy coloring algorithm
+
+## 📊 Graph Representations
+
+### 1. Adjacency List (Unweighted)
+```java
+Graph graph = new Graph(5, false); // 5 vertices, undirected
+graph.addEdge(0, 1);
+graph.addEdge(1, 2);
+```
+
+### 2. Weighted Adjacency List
+```java
+WeightedGraph wGraph = new WeightedGraph(5, true); // 5 vertices, directed
+wGraph.addEdge(0, 1, 10); // Edge from 0 to 1 with weight 10
+```
+
+## 🔧 Algorithms Implemented
+
+### Traversal Algorithms
+| Algorithm | Time Complexity | Space Complexity | Use Case |
+|-----------|----------------|------------------|----------|
+| BFS | O(V + E) | O(V) | Shortest path in unweighted graph |
+| DFS | O(V + E) | O(V) | Cycle detection, topological sort |
+
+### Shortest Path Algorithms
+| Algorithm | Time Complexity | Space Complexity | Best For |
+|-----------|----------------|------------------|----------|
+| Dijkstra | O((V + E) log V) | O(V) | Single source, non-negative weights |
+| Floyd-Warshall | O(V³) | O(V²) | All pairs shortest paths |
+| Bellman-Ford | O(VE) | O(V) | Negative weights, cycle detection |
+
+### Advanced Algorithms
+| Algorithm | Time Complexity | Space Complexity | Purpose |
+|-----------|----------------|------------------|---------|
+| Kruskal's MST | O(E log E) | O(V) | Minimum spanning tree |
+| Topological Sort | O(V + E) | O(V) | Dependency resolution |
+| Tarjan's SCC | O(V + E) | O(V) | Strongly connected components |
+
+## 💡 Usage Examples
+
+### Basic Graph Operations
+```java
+// Create an undirected graph with 5 vertices
+Graph graph = new Graph(5, false);
+
+// Add edges
+graph.addEdge(0, 1);
+graph.addEdge(1, 2);
+graph.addEdge(2, 3);
+
+// Perform traversals
+graph.bfs(0);           // BFS from vertex 0
+graph.dfsRecursive(0);  // DFS from vertex 0
+
+// Check properties
+boolean connected = graph.isConnected();
+boolean hasCycle = graph.hasCycleUndirected();
+```
+
+### Shortest Path Finding
+```java
+// Create weighted graph
+WeightedGraph wGraph = new WeightedGraph(5, false);
+wGraph.addEdge(0, 1, 2);
+wGraph.addEdge(1, 2, 3);
+wGraph.addEdge(0, 3, 6);
+
+// Find shortest distances from vertex 0
+Map<Integer, Integer> distances = wGraph.dijkstra(0);
+
+// Find specific shortest path
+List<Integer> path = wGraph.getShortestPath(0, 4);
+```
+
+### Advanced Problem Solving
+```java
+// Find connected components
+List<List<Integer>> components = GraphProblems.findConnectedComponents(graph);
+
+// Check if graph is bipartite
+boolean isBipartite = GraphProblems.isBipartite(graph);
+
+// Find bridges and articulation points
+List<int[]> bridges = GraphProblems.findBridges(graph);
+List<Integer> articulationPoints = GraphProblems.findArticulationPoints(graph);
+```
+
+## 🧩 Common Graph Problems
+
+### 1. **Path Finding**
+- Check if path exists between two vertices
+- Find shortest path length
+- Find actual shortest path
+
+### 2. **Connectivity**
+- Connected components in undirected graphs
+- Strongly connected components in directed graphs
+- Bridge and articulation point detection
+
+### 3. **Cycle Detection**
+- Detect cycles in undirected graphs (using DFS)
+- Detect cycles in directed graphs (using DFS with recursion stack)
+
+### 4. **Graph Coloring**
+- Bipartite graph detection (2-coloring)
+- General graph coloring (greedy approach)
+
+### 5. **Topological Problems**
+- Topological sorting for DAGs
+- Course scheduling problems
+- Dependency resolution
+
+### 6. **Optimization Problems**
+- Minimum Spanning Tree (network design)
+- Shortest path problems (navigation, routing)
+
+## ⚡ Time and Space Complexity
+
+### Graph Representation
+- **Adjacency List**: 
+  - Space: O(V + E)
+  - Add edge: O(1)
+  - Check edge: O(degree of vertex)
+
+### Common Operations
+- **BFS/DFS Traversal**: O(V + E) time, O(V) space
+- **Dijkstra's Algorithm**: O((V + E) log V) time, O(V) space
+- **Floyd-Warshall**: O(V³) time, O(V²) space
+- **Kruskal's MST**: O(E log E) time, O(V) space
+
+## 🚀 How to Run
+
+### Compile and Run
+```bash
+# Compile all Java files
+javac *.java
+
+# Run the comprehensive demo
+java GraphDemo
+
+# Run specific problem demonstrations
+java -cp . GraphDemo
+```
+
+### Example Output
+```
+=== GRAPH DATA STRUCTURES AND ALGORITHMS DEMO ===
+
+1. BASIC GRAPH OPERATIONS
+========================
+Undirected Graph:
+Vertex 0: 1 2 
+Vertex 1: 0 3 
+Vertex 2: 0 4 
+...
+
+BFS traversal starting from vertex 0: 0 1 2 3 4 5 
+DFS (Recursive) traversal starting from vertex 0: 0 1 3 4 2 5 
+```
+
+## 🎯 Problem-Solving Approach
+
+### Step 1: Identify the Problem Type
+- **Traversal**: Use BFS/DFS
+- **Shortest Path**: Choose appropriate algorithm based on constraints
+- **Connectivity**: Use DFS or Union-Find
+- **Optimization**: Consider MST or dynamic programming approaches
+
+### Step 2: Choose the Right Algorithm
+- **Unweighted shortest path**: BFS
+- **Weighted shortest path (non-negative)**: Dijkstra
+- **Weighted shortest path (with negatives)**: Bellman-Ford
+- **All-pairs shortest path**: Floyd-Warshall
+- **Minimum spanning tree**: Kruskal's or Prim's
+
+### Step 3: Consider Edge Cases
+- Disconnected graphs
+- Self-loops
+- Multiple edges between same vertices
+- Negative weight cycles
+
+### Step 4: Optimize for Constraints
+- Small graphs (V ≤ 100): Floyd-Warshall acceptable
+- Large sparse graphs: Adjacency list + Dijkstra
+- Dense graphs: Consider adjacency matrix
+
+## 📚 Learning Resources
+
+### Key Concepts to Master
+1. **Graph Representations**: Adjacency list vs matrix
+2. **Traversal Algorithms**: BFS vs DFS applications
+3. **Shortest Path**: When to use which algorithm
+4. **MST**: Kruskal's vs Prim's algorithm
+5. **Advanced Topics**: SCC, bridges, articulation points
+
+### Practice Problems
+- **Beginner**: Graph traversal, connected components
+- **Intermediate**: Shortest path, cycle detection, topological sort
+- **Advanced**: Bridges, articulation points, strongly connected components
+
+### Common Interview Questions
+1. Clone a graph
+2. Course schedule (topological sort)
+3. Number of islands (connected components)
+4. Shortest path in maze (BFS)
+5. Detect cycle in directed/undirected graph
+6. Minimum spanning tree problems
+7. Network delay time (Dijkstra)
+
+---
+
+This implementation provides a solid foundation for solving graph problems in competitive programming and technical interviews. Each algorithm is well-documented with complexity analysis and practical examples.
+
